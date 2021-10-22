@@ -50,5 +50,9 @@ public class S15_Format {
 
         // Field Width and Maximum Number of Characters
         System.out.println(String.format("|%30.5s|", "Hello World")); // prints: | Hello|
+
+
+
+        System.out.println(String.format("Hello %s, %d", 12, 50)); // prints: | Hello|
     }
 }

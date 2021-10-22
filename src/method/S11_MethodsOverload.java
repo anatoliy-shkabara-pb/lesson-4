@@ -35,13 +35,11 @@ public class S11_MethodsOverload {
         System.out.println(i + s);
     }
 
-//    Перегруженные методы не могут отличаться возвращаемыми значениями!
-//    static String function(String s) {   // 7-я перегрузка.
-//
+//    static void function(int qwer, String s) {   // 7-я перегрузка.
 //        return s;
 //    }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 //        function();                  // 1-я перегрузка.
 //        function("A");               // 2-я перегрузка.
 //        function(1);                 // 3-я перегрузка.

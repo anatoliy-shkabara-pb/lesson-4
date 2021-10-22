@@ -23,10 +23,13 @@ public class S09_Methods {
         System.out.println("Значение result = " + result);
         //result = 10;
         // В качестве аргумента передается не сама переменная - result, а её копия.
-        result = addTwo(result);
+        int result2 = addTwo(result);
 
-        System.out.println(addTwo(result));
 
         System.out.println(result);
+
+        System.out.println(result2);
+
+        //System.out.println(result);
     }
 }

@@ -3,6 +3,9 @@ package string;
 public class S03_Concat {
     public static void main(String[] args) {
 
+        String abc = "Hello!" + " World";
+        String abc2 = new StringBuilder().append("Hello!").append(" World").toString();
+
         System.out.println("5 + 8 = " + (5 + 8));
 
         String s = "Я стану программистом!";

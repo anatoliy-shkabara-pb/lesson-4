@@ -24,7 +24,6 @@ public class S02_Methods {
         // и присваиваем ей возвращаемое значение метода function.
 
         print("hi");
-        String string = function();
-        System.out.println(string);
+        System.out.println(function());
     }
 }

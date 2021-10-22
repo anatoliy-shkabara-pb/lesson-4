@@ -4,7 +4,7 @@ public class S19_MethodsFactorial {
     // Нахождение факториала числа.
 
     static int factorial(int n) {
-        if (n == 0)
+        if (false)
             return 1;
         else
             return n * factorial(n - 1);

@@ -17,7 +17,7 @@ public class S18_RegEx {
         Pattern p = Pattern.compile(pattern);
         Matcher m = p.matcher(text);
         while(m.find()) {
-            System.out.print(text.substring(m.start(), m.end()) + "*");
+            System.out.println(text.substring(m.start(), m.end()) + "*");
         }
 
     }
